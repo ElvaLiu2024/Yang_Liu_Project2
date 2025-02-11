@@ -1,12 +1,14 @@
 # This is Yang-Liu-Project2 for CS5610-Spring2025
 
 🚢 Battleship
+
 Project Name: Battleship
 Author: Yang Liu
 GitHub Repository: https://github.com/ElvaLiu2024/Yang_Liu_Project2/
 Deployed App (Heroku/Render): https://battleship-heroku-95dc333427f3.herokuapp.com/
 
 🎯 Project Overview
+
 Battleship is a classic strategy game where two players take turns attacking each other's ships until one player's fleet is completely destroyed. This project is developed using React + Context API to manage state and provide a seamless gaming experience.
 
 The game supports two modes:
