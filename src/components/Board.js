@@ -3,6 +3,9 @@ import Cell from "./Cell";
 import "../styles/Board.css";
 
 const Board = ({ title, grid, onCellClick, onDrop, onDragOver }) => {
+    const handleDragOver = (event) => {
+        event.preventDefault();  
+    };
     return (
         <div className="board">
             <h2>{title}</h2>
@@ -14,9 +17,9 @@ const Board = ({ title, grid, onCellClick, onDrop, onDragOver }) => {
                             status={grid[rowIndex][colIndex]} 
                             rowIndex={rowIndex}
                             colIndex={colIndex}
-                            onClick={onCellClick}
-                            onDrop={onDrop}
-                            onDragOver={onDragOver}
+                            onClick={() => onCellClick(rowIndex, colIndex)}
+                                onDrop={(event) => onDrop(event, rowIndex, colIndex)}
+                                onDragOver={onDragOver || handleDragOver} 
                         />
                     ))
                 )}
