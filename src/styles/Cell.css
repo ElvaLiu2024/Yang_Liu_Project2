@@ -1,0 +1,40 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cell.hit {
+    background-color: red !important;
+    color: white;
+}
+
+
+.cell.miss {
+    background-color: gray!important;
+    color: white;
+}
+
+.cell.ship {
+    background-color: blue;
+}
+
+
+@media (max-width: 576px) {
+    .grid {
+        grid-template-columns: repeat(10, 30px);
+        grid-template-rows: repeat(10, 30px);
+    }
+
+    .cell {
+        width: 30px;
+        height: 30px;
+    }
+}

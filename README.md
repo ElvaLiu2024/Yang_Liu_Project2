@@ -1,71 +1,30 @@
-# Getting Started with Create React App
+# This is Yang-Liu-Project2 for CS5610-Spring2025
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚢 Battleship
+Project Name: Battleship
+Author: Yang Liu
+GitHub Repository:
+Deployed App (Heroku/Render):
 
-## Available Scripts
+🎯 Project Overview
+Battleship is a classic strategy game where two players take turns attacking each other's ships until one player's fleet is completely destroyed. This project is developed using React + Context API to manage state and provide a seamless gaming experience.
 
-In the project directory, you can run:
+The game supports two modes:
 
-### `npm start`
+1.Normal Mode: You take turns attacking with an AI opponent. The AI avoids hitting the same spot twice.
+2.Easy Mode: Free-play mode where you can click anywhere on the enemy board. The AI does not take any turns.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📜 Game Rules
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Drag and drop ships onto the Player Board before starting.
+2.Click on the enemy board to attack a cell.
+3.Hit a ship: The tile is marked ✅ (green checkmark).
+4.Miss: The tile is marked X (red X).
+5.AI attacks your board (Only in Normal Mode).
+6.Destroy all enemy ships to win the game!
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Yang_Liu_Project2
+🏆 Win Condition
+1.If all of one player’s ships are destroyed, the game ends.
+2.The screen displays: "Game Over! {Player or AI} Won!"
+3.Players can click Restart Game to play again.
