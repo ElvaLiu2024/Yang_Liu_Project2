@@ -3,7 +3,7 @@
 🚢 Battleship
 Project Name: Battleship
 Author: Yang Liu
-GitHub Repository:
+GitHub Repository: https://github.com/ElvaLiu2024/Yang_Liu_Project2/
 Deployed App (Heroku/Render):
 
 🎯 Project Overview
